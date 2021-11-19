@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- icon set -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="jquery.js"></script>
+  
+</head>
+<body>
+    <header id="header">
+        <div class="left"><a href="#header"><img src="./Web 19201111 – 1.png" alt=""></a></div>
+        <div class="right">
+            <div><a href="#header">Home</a></div>
+            <div><a href="./event.html">Events</a></div>
+            <div><a href="register">Register</a></div>
+            <div><a href="#about">About</a></div>
+            <div><a href="Coordinator">Coordinator</a></div>
+            <div><a href="sponsers">sponsers</a></div>
+    </header>
+
+    <div class="home_page">
+        <div class="heading1">xposure a place </div>
+        <!-- slider -->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="./image/events/exposure.jpeg" style="width:100%">
+                  <div class="text">Xposure</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="./image/events/college1.jpeg" style="width:100%">
+                  <div class="text" style="font-size: 20px; color: red;">college</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="./image/events/singing.jpeg" style="width:100%">
+                  <div class="text" style="font-size: 20px; color: red;">college campus</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./image/events/college3.jpg" style="width:100%">
+                    <div class="text" style="font-size: 20px; color: red;">Caption Three</div>
+                  </div>
+            </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+    </div>
+
+    <!-- script.................. -->
+<script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+<!-- script end.............. -->
+
+
+    <!-- About us--------------- -->
+
+    <div class="about" id="about">
+        <div class="headingname"> 
+            <h1>About</h1>
+        </div>
+        <div class="about_section">
+            <div class="left">
+                <h2>Xposure-2020 - Gaya college of Engineering Gaya</h2>
+                <h6>sri Krishna Nagar, P.O Nagari Yana,
+                    Via Buniyadganij, Pin - 823003,
+                    Gaya, Bihar, India </h6>
+                
+                
+                <h4> Gmail- exposure.gce@gmail.com</h4>
+    
+            </div>
+            <div class="right">
+                <img src="./image/events/png image.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="social_link">
+        <a href="" class="facebook"><i class='fab fa-facebook'></i></a>
+        <a href="" class="instagram"><i class='fab fa-instagram'></i></a>
+        <a href="" class="youtube"><i class='fab fa-youtube'></i></a>
+        
+    </div>
+    <div class="headerlink">
+        <a href="" > Home</a >
+        <a href=""> About</a >
+        <a href=""> Services</a >
+        <a href=""> Testimonial</a >
+        <a href=""> Content-Us</a >
+      </div>
+     
+    <div class="copyright">Copyright © 2020 || All Rights Reserved by DEVELOPER CELL .</div>
+  
+  </div>
+  <!-- end footer -->
+</body>
+</html>
