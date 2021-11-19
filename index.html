@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- icon set -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="jquery.js"></script>
@@ -15,14 +17,38 @@
 </head>
 <body>
     <header id="header">
-        <div class="left"><a href="index.html"><img src="./Web 19201111 – 1.png" alt=""></a></div>
-        <div class="right">
-            <div><a href="#header">Home</a></div>
-            <div><a href="./event.html">Events</a></div>
-            <div><a href="register">Register</a></div>
-            <div><a href="#about">About</a></div>
-            <div><a href="Coordinator">Coordinator</a></div>
-            <div><a href="sponsers">sponsers</a></div>
+        
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style=" padding: 0px; margin: 0px;" >
+              <a class="navbar-brand" href="#" style="padding: 0px;"><img src="./Web 19201111 – 1.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav ">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="event.html">Events <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Register <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Coordinator <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">sponsers <span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
     </header>
 
     <div class="home_page">
@@ -90,25 +116,25 @@
     <!-- About us--------------- -->
 
     <div class="about" id="about">
-        <div class="headingname"> 
-            <h1>About</h1>
-        </div>
-        <div class="about_section">
-            <div class="left">
-                <h2>Xposure-2020 - Gaya college of Engineering Gaya</h2>
-                <h6>sri Krishna Nagar, P.O Nagari Yana,
-                    Via Buniyadganij, Pin - 823003,
-                    Gaya, Bihar, India </h6>
-                
-                
-                <h4> Gmail- exposure.gce@gmail.com</h4>
-    
-            </div>
-            <div class="right">
-                <img src="./image/events/png image.png" alt="">
-            </div>
-        </div>
-    </div>
+      <div class="headingname"> 
+          <h1>About</h1>
+      </div>
+      <div class="about_section">
+          <div class="left">
+              <h2>Xposure-2020 - Gaya college of Engineering Gaya</h2>
+              <h6>sri Krishna Nagar, P.O Nagari Yana,
+                  Via Buniyadganij, Pin - 823003,
+                  Gaya, Bihar, India </h6>
+              
+              
+              <h4> Gmail- exposure.gce@gmail.com</h4>
+  
+          </div>
+          <div class="right">
+              <img src="./image/events/png image.png" alt="">
+          </div>
+      </div>
+  </div>
 
 
 
@@ -132,7 +158,7 @@
 
 
 <!-- footer -->
-<div class="footer">
+<div class="footer">        
     <div class="social_link">
         <a href="" class="facebook"><i class='fab fa-facebook'></i></a>
         <a href="" class="instagram"><i class='fab fa-instagram'></i></a>
