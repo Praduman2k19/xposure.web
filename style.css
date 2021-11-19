@@ -198,10 +198,10 @@ img {vertical-align: middle;}
 .footer .social_link{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 50vw;
-    /* min-width: 200px; */
-    margin: 0px 20px;
+    justify-content: space-between;
+    /* width: 50vw; */
+    width: 200px;
+    margin: auto;
     /* background: rgb(59, 187, 159); */
 }
 .footer .social_link a{
